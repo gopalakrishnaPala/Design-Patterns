@@ -1,11 +1,7 @@
-# Design-Patterns
-
-## Builder Design Pattern
+# Builder Design Pattern
 
 ### Intent
 Separate the construction of a complex object from its representation so that the same construction process can create different representations. 
-
-### Motivation
 
 ### Applicability
 Use the Builder pattern when 
@@ -13,7 +9,7 @@ Use the Builder pattern when
 - the construction process must allow different representations for the object that's constructed. 
 
 ### Participants
-- #### Builder
-- #### ConcreteBuilder
-- #### Director
-- #### Product
+- ##### Builder
+- ##### ConcreteBuilder
+- ##### Director
+- ##### Product
