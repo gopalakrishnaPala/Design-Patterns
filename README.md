@@ -1,24 +1,26 @@
 # Design Patterns
 
-Design patterns are typical solutions to commonly occurring problems in software design. They are like pre-made blueprints that you can customize to solve a recurring design problem in your code.
+**Christopher Alexander** says, "Each pattern describes a problem which occurs over and over again in our environment, and then describes the core of the solution
+to that problem, in such a way that you can use this solution a million times over, without ever doing it the same way twice"
 
-# What does the pattern consist of?
-- **Intent** of the pattern briefly describes both the problem and the solution.
-- **Motivation** further explains the problem and the solution the pattern makes possible.
-- **Structure** of classes shows each part of the pattern and how they are related.
-- **Code example** in one of the popular programming languages makes it easier to grasp the idea behind the pattern.
+#### In general, a pattern has four essential elements:
 
-# Classification of patterns
-- **Creational patterns** provide object creation mechanisms that increase flexibility and reuse of existing code.
+- The **pattern name** is a handle we can use to describe a design problem, its solutions, and consequences in a word or two.
+- The **problem** describes when to apply the pattern. It explains the problem and its context
+- The **solution** describes the elements that make up the design, their relationships, responsibilities, and collaborations.
+- The **consequences** are the results and trade-offs of applying the pattern
+
+### Classification of patterns
+- **Creational patterns** Creational design patterns abstract the instantiation process. They help make a system independent of how its objects are created,composed, and represented.
 - **Structural patterns** explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient.
 - **Behavioral patterns** take care of effective communication and the assignment of responsibilities between objects.
 
-# Creational patterns
-- **Factory Method**
-- **Abstract Factory**
-- **Builder**
-- **Prototype**
-- **Singleton**
+### Creational patterns
+- **Factory Method** - provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created 
+- **Abstract Factory** - lets you produce families of related objects without specifying their concrete classes.
+- **Builder** - lets you construct complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
+- **Prototype** - lets you copy existing objects without making your code dependent on their classes.
+- **Singleton** - lets you ensure that a class has only one instance, while providing a global access point to this instance.
 
 # Structural patterns
 - **Adapter**
