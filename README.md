@@ -12,4 +12,31 @@ Design patterns are typical solutions to commonly occurring problems in software
 - **Creational patterns** provide object creation mechanisms that increase flexibility and reuse of existing code.
 - **Structural patterns** explain how to assemble objects and classes into larger structures, while keeping the structures flexible and efficient.
 - **Behavioral patterns** take care of effective communication and the assignment of responsibilities between objects.
--
+
+# Creational patterns
+- **Factory Method**
+- **Abstract Factory**
+- **Builder**
+- **Prototype**
+- **Singleton**
+
+# Structural patterns
+- **Adapter**
+- **Bridge**
+- **Composite**
+- **Decorator**
+- **Facade**
+- **Flyweight**
+- **Proxy**
+
+# Behavioral patterns
+- **Command**
+- **Iterator**
+- **Mediator**
+- **Observer**
+- **State**
+- **Strategy**
+- **Template Method**
+- **Visitor**
+
+
